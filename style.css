@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2? family= Black+Ops+One & family= Oswald:wght@300 & family= Rubik+Iso & display=swap');
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body{
+    padding: 0 ;
+    margin: 0;
+font-family: 'Oswald', sans-serif;
+background-image: url(images/mon-image.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+z-index: auto;
+}
+
+nav{
+    display: flex;
+     /* flex-direction: row; */
+     flex-wrap: wrap; 
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dd10dd;
+    position: sticky;
+    width: auto;
+    top: 0;
+    padding: 0px 10px;
+    z-index: 6;
+   
+}
+nav div.profile{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+nav .profile img{
+    width: 15%;
+    margin-bottom: 1px;
+    
+}
+nav .profile h1{
+   
+    font-size: 25px;
+}
+nav a,h1{
+    margin-left:  -0px;
+    color: #fff;
+}
+
+
+nav  ul{
+    display: flex;
+   list-style-type: none;
+    
+
+}
+
+nav ul li  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    border-bottom: 3px solid #dd10dd;
+    margin-left: 20px;
+}
+nav ul li  a:hover{
+    border-bottom-color: #aa10aa;
+}
+
+@media screen and (max-width: 700px){
+    nav{
+        justify-content: center;
+    }
+}
+
+.page-content{
+    display: flex;
+    margin: 80px auto;
+    position: relative;
+    width: 100%;
+    /* overflow: overlay; */
+    z-index: 4;
+}
+
+.p{
+    margin-right: 300px;
+    margin-top: -1%;
+}
+p, .p{
+    font-size: 19px;
+    margin-left: 25px;
+    color: #fff;
+}
+p{
+  margin-left: 1px;
+}
+.img{
+  margin-right: 25px;
+}
+.page-content h1{
+    margin-left: 200px;
+    margin-top: -40px;
+    text-transform: uppercase;
+    font-family:  'Rubik Iso', cursive ; 
+    font-size: 2vw;
+}
+
+  .button {
+    padding: 12px 30px;
+    margin: 40px 30px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #dd10dd; 
+    margin-left: 25px;
+
+  }
+  
+  .button {
+    border: 1px solid transparent;
+    -webkit-transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
+    transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
+  }
+  .button::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: -1;
+    width: 0%;
+    height: 1px;
+    background: #f706f7;
+    box-shadow: inset 0px 0px 0px #b6cdef;
+    display: block;
+    -webkit-transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
+    transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
+  }
+  .button:hover::before {
+    width: 100%;
+  }
+  .button::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 0%;
+    height: 1px;
+    background: #aa10aa;
+    -webkit-transition: all 0.4s cubic-bezier(0.7, 0.25, 0, 1);
+    transition: all 0.4s cubic-bezier(0.7, 0.25, 0, 1);
+  }
+  .button:hover::after {
+    width: 100%;
+  }
+  .button:hover {
+   
+    border: 5px solid #aa10aa;
+    border-radius: 12px;
+  }
+
+  footer {
+    background-color: #dd10dd;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  footer a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+.info img{
+  width: 30px;
+	height: 30px;
+  border-radius: 50px;
+}
+.info ul{
+  list-style-type: none;
+  display: flex;
+  justify-content: end;
+  
+}
+.info ul li  a{
+  
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.info{
+  margin: 0px 0px;
+}
+
+.loca{
+  /* margin-left: 1%;
+  margin-top: 1%; */
+  margin-left: 25px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  align-content: space-between;
+  align-items: center;
+  font-family: 'Oswald', sans-serif;
+  color: #fff;
+  float: left;
+  line-height:5px;
+  flood-color: #aa10aa;
+}
+/* .loca img{
+  margin-left: -1px;
+}
+  */
+/* div .loca{
+  display: flex;
+    align-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+} */

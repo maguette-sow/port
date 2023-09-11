@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2? family= Black+Ops+One & family= Oswald:wght@300 & family= Rubik+Iso & display=swap');
+
+ * {
+  margin: 0;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  
+}
+
+body{
+    padding: 0 ;
+    margin: 0;
+   
+    bottom: 0;
+font-family: 'Oswald', sans-serif;
+background-image: url(images/mon-image.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: relative;
+z-index: auto;
+}
+
+nav{
+    display: flex;
+     /* flex-direction: row; */
+     flex-wrap: wrap; 
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dd10dd;
+    position: sticky;
+    width: auto;
+    top: 0;
+    padding: 0px 10px;
+    z-index: 6;
+   
+}
+nav div.profile{
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    
+    
+}
+
+
+nav .profile img{
+    width: 15%;
+    margin-bottom: 1px;
+    
+}
+nav .profile h1{
+   
+    font-size: 25px;
+}
+nav a,h1{
+    margin-left:  -0px;
+    color: #fff;
+}
+
+
+nav  ul{
+    display: flex;
+   list-style-type: none;
+    
+
+}
+
+nav ul li  a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+    border-bottom: 3px solid #dd10dd;
+    margin-left: 20px;
+}
+nav ul li  a:hover{
+    border-bottom-color: #aa10aa;
+}
+
+@media screen and (max-width: 700px){
+    nav{
+        justify-content: center;
+    }
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 25px;
+   
+  }
+  
+
+  input[type=email] {
+    width: 100%;
+    padding: 20px 25px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 25px;
+    
+  }
+
+  #country{
+    font-size: large;
+  }
+
+
+  textarea {
+    width: 100%;
+    height: 150px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+    font-size: 25px;
+  }
+
+  input[type=submit] {
+    width: 80%;
+    background-color: #f706f7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+    /* margin-left: 250px;
+    margin-right: 250px; */
+  }
+  
+  input[type=submit]:hover {
+    background-color: #ff002265;
+  }
+  
+   form {
+    /* border-radius: -5px; */
+    /* background-color: #ff00cc; */
+    /* background: linear-gradient(to top, #ff00cc ); */
+    padding: 50px ;
+    margin: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 8px solid  #f706f7;
+    /* border-radius: 30px; */
+    width: 1800%;
+    /* position: absolute; */
+    margin-left: 0;
+    margin-right: 200px;
+    border-left: none;
+    
+  }
+ 
+
+  .img{
+    border: 8px solid  #f706f7;
+    
+    border-right: none;
+    /* display: flex; */
+    /* width: 1200px;
+    height: 2000px; */
+    height: auto;
+    margin: auto;
+    position: relative;
+    margin-left: 200px;
+    
+  }
+  .div{
+    display: flex;
+    /* flex-direction: column;
+    flex-wrap: wrap; */
+    justify-content: center;
+flex-direction: row-reverse;
+align-items: center;
+margin-top: -540px;
+  }
+  /* label{
+    color: white;
+    font-size: 28px;
+
+  } */
+ 
+
+
+ 
+  .info img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+  }
+  .info ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    
+  }
+  .info ul li  a{
+    
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .info{
+    margin: 0px 0px;
+  }
+  
+
+footer {
+    background-color: #dd10dd;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+    width: auto;
+    
+    
+  }
+  footer a{
+    text-decoration: none;
+    color: #fff;
+  }
